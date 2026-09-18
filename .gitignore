@@ -1,0 +1,8 @@
+# 下划线前缀临时产物（如 _wb/ 等调试残留）
+# 注意：`_*` 会连 `_manifest.json` 也匹配，需用反例保留它
+_*
+!_manifest.json
+
+# Python 运行残留（scripts/ 为 Python 脚本，运行时可能产生）
+__pycache__/
+*.pyc
